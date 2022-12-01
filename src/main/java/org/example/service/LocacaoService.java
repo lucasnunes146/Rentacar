@@ -37,7 +37,7 @@ public class LocacaoService {
         System.out.print("Digite o ID do carro: ");
         int idCarro = sc.nextInt();
         sc.nextLine();
-        System.out.print("Digite o fim da locação [dd/MM/aaaa]: ");
+        System.out.print("Digite o data fim da locação [dd/MM/aaaa]: ");
         String[] aux = sc.nextLine().split("/");
         LocalDate fimLocacao = LocalDate.of(
                 Integer.parseInt(aux[2]),

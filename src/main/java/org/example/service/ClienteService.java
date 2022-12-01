@@ -18,7 +18,7 @@ public class ClienteService {
 
     public void salvar(){
         Cliente cliente = new Cliente();
-        System.out.print("Nome: ");
+        System.out.print("Nome e Sobrenome: ");
         cliente.setNome(sc.nextLine());
         System.out.print("CPF: ");
         cliente.setCpf(sc.nextLine());

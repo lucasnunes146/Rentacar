@@ -23,7 +23,7 @@ public class CarroService {
         Carro carro = new Carro();
         System.out.print("Entre com o nome da categoria: ");
         carro.setCategoria(sc.nextLine());
-        System.out.print("Informe a transmissão: ");
+        System.out.print("Informe qual o tipo de transmissão do veículo: ");
         carro.setTransmissao(Transmissao.valueOf(sc.nextLine().toUpperCase()));
         System.out.print("Informe o tipo de combustível: ");
         carro.setCombustivel(Combustivel.valueOf(sc.nextLine().toUpperCase()));
